@@ -4,9 +4,3 @@ export function fetchCountries(name) {
         .then(response => response.json())
         .catch(() => console.log('Error'));
 }
-
-        // .then(
-        //     data => {
-        //         console.log(data);
-        //     }
-        // )
